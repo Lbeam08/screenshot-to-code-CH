@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://picoapps.xyz/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 谷歌字体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- 注入的托管版本代码 -->
+  <%- injectHead %>
+
+    <title>屏幕截图转代码</title>
+
+    <!-- 开放图谱元标签 -->
+    <meta property="og:title" content="屏幕截图转代码" />
+    <meta property="og:description" content="将任何屏幕截图或设计转换为干净的代码" />
+    <meta property="og:image" content="https://screenshottocode.com/brand/twitter-summary-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+    <meta property="og:url" content="https://screenshottocode.com" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter 卡片标签 -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@picoapps" />
+    <!-- 与 og:title、og:description 和 og:image 保持同步 -->
+    <meta name="twitter:title" content="屏幕截图转代码" />
+    <meta name="twitter:description" content="将任何屏幕截图或设计转换为干净的代码" />
+    <meta name="twitter:image" content="https://screenshottocode.com/brand/twitter-summary-card.png" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
